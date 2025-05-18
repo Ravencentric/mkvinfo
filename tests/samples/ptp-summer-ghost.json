@@ -1,0 +1,476 @@
+{
+  "attachments": [
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "A-OTFFOLKPROM-EN-BOLD.TTF",
+      "id": 1,
+      "properties": {
+        "uid": 11238361835144685395
+      },
+      "size": 165832
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Absolution.ttf",
+      "id": 2,
+      "properties": {
+        "uid": 6261746857745741418
+      },
+      "size": 26776
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "AnnBrush.ttf",
+      "id": 3,
+      "properties": {
+        "uid": 10791467295355354146
+      },
+      "size": 28744
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "arial.ttf",
+      "id": 4,
+      "properties": {
+        "uid": 15517798932544240390
+      },
+      "size": 1036584
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Asap-Regular.ttf",
+      "id": 5,
+      "properties": {
+        "uid": 8771640202796137923
+      },
+      "size": 101032
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "CROSSPATCHERSDELIGHTNORMAL.ttf",
+      "id": 6,
+      "properties": {
+        "uid": 5820667058462033784
+      },
+      "size": 55220
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "Cuprum.otf",
+      "id": 7,
+      "properties": {
+        "uid": 13350056220807072475
+      },
+      "size": 44452
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Hand Of Sean.ttf",
+      "id": 8,
+      "properties": {
+        "uid": 5224875804279822770
+      },
+      "size": 35860
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "PetitaMedium.ttf",
+      "id": 9,
+      "properties": {
+        "uid": 16135434927288474110
+      },
+      "size": 56264
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "PTS75F.ttf",
+      "id": 10,
+      "properties": {
+        "uid": 7804554692385361056
+      },
+      "size": 355328
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "PTSans-BoldItalic.ttf",
+      "id": 11,
+      "properties": {
+        "uid": 4824841001418742893
+      },
+      "size": 209784
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "Rough City.otf",
+      "id": 12,
+      "properties": {
+        "uid": 16360778051907351231
+      },
+      "size": 1081712
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "ToscaZero-gyA4.otf",
+      "id": 13,
+      "properties": {
+        "uid": 15927270721746996105
+      },
+      "size": 369424
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "UglyQua.ttf",
+      "id": 14,
+      "properties": {
+        "uid": 15686292979502291982
+      },
+      "size": 111044
+    }
+  ],
+  "chapters": [
+    {
+      "num_entries": 5
+    }
+  ],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "duration": 2393522000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "",
+      "segment_uid": "7f5140fef1f985333b945a1a92c9938b",
+      "timestamp_scale": 1000000,
+      "writing_application": ""
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "Summer Ghost (2021) {imdb-tt15052770} [Remux-1080p][DTS-HD MA 5.1][JA+EN][8bit][AVC]-PTP.mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "AVC/H.264/MPEG-4p10",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEG4/ISO/AVC",
+        "codec_private_length": 130,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 2751,
+        "number": 1,
+        "packetizer": "mpeg4_p10_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "36951247",
+        "tag_duration": "00:39:53.474708333",
+        "tag_number_of_bytes": "11055231260",
+        "tag_number_of_frames": "57386",
+        "track_name": "JPN BD Remux",
+        "uid": 12201073202000521608
+      },
+      "type": "video"
+    },
+    {
+      "codec": "DTS-HD Master Audio",
+      "id": 1,
+      "properties": {
+        "audio_bits_per_sample": 24,
+        "audio_channels": 6,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_DTS",
+        "codec_private_length": 0,
+        "default_duration": 10666667,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "3671179",
+        "tag_duration": "00:39:53.472000001",
+        "tag_number_of_bytes": "1098358184",
+        "tag_number_of_frames": "224388",
+        "track_name": "DTS-HD MA 5.1",
+        "uid": 2765363681228929079
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "DTS-HD Master Audio",
+      "id": 2,
+      "properties": {
+        "audio_bits_per_sample": 24,
+        "audio_channels": 6,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_DTS",
+        "codec_private_length": 0,
+        "default_duration": 10666667,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "minimum_timestamp": 7000000,
+        "num_index_entries": 0,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "3681989",
+        "tag_duration": "00:39:53.514333336",
+        "tag_number_of_bytes": "1101611596",
+        "tag_number_of_frames": "224392",
+        "track_name": "DTS-HD MA 5.1",
+        "uid": 2130583944271079850
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 3,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 3283435,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 29726,
+        "number": 4,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "31980",
+        "tag_duration": "00:36:19.430000000",
+        "tag_number_of_bytes": "8712348",
+        "tag_number_of_frames": "29726",
+        "text_subtitles": true,
+        "track_name": "Full Subtitles [GJM] (ASS)",
+        "uid": 9001218927456561189
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 4,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 3283079,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": true,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 29200,
+        "number": 5,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "43033",
+        "tag_duration": "00:26:53.400000000",
+        "tag_number_of_bytes": "8678786",
+        "tag_number_of_frames": "29200",
+        "text_subtitles": true,
+        "track_name": "Signs/Songs [GJM] (ASS)",
+        "uid": 13769274745503153783
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 5,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 932,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 486,
+        "number": 6,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "96",
+        "tag_duration": "00:36:19.760000000",
+        "tag_number_of_bytes": "26295",
+        "tag_number_of_frames": "486",
+        "text_subtitles": true,
+        "track_name": "Full Subtitles [USBD] (OCR, ASS)",
+        "uid": 10408624841880850719
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 6,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 1274,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "flag_hearing_impaired": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 816,
+        "number": 7,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "148",
+        "tag_duration": "00:37:14.490000000",
+        "tag_number_of_bytes": "41454",
+        "tag_number_of_frames": "816",
+        "text_subtitles": true,
+        "track_name": "Closed Captions [USBD] (OCR, ASS)",
+        "uid": 6458173073416350188
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "HDMV PGS",
+      "id": 7,
+      "properties": {
+        "codec_id": "S_HDMV/PGS",
+        "codec_private_length": 0,
+        "content_encoding_algorithms": "0",
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 967,
+        "number": 8,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "20074",
+        "tag_duration": "00:39:17.396000000",
+        "tag_number_of_bytes": "5915442",
+        "tag_number_of_frames": "967",
+        "track_name": "Full Subtitles [USBD] (PGS)",
+        "uid": 17541274887473522734
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "HDMV PGS",
+      "id": 8,
+      "properties": {
+        "codec_id": "S_HDMV/PGS",
+        "codec_private_length": 0,
+        "content_encoding_algorithms": "0",
+        "default_track": false,
+        "enabled_track": true,
+        "flag_hearing_impaired": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 1630,
+        "number": 9,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "31969",
+        "tag_duration": "00:37:14.524000000",
+        "tag_number_of_bytes": "8929486",
+        "tag_number_of_frames": "1630",
+        "track_name": "Closed Captions [USBD] (PGS)",
+        "uid": 16774799724404649355
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "HDMV PGS",
+      "id": 9,
+      "properties": {
+        "codec_id": "S_HDMV/PGS",
+        "codec_private_length": 0,
+        "content_encoding_algorithms": "0",
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 33,
+        "number": 10,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "2563",
+        "tag_duration": "00:10:09.358000000",
+        "tag_number_of_bytes": "195258",
+        "tag_number_of_frames": "33",
+        "track_name": "Signs/Songs [USBD] (PGS)",
+        "uid": 7497970760720455259
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "HDMV PGS",
+      "id": 10,
+      "properties": {
+        "codec_id": "S_HDMV/PGS",
+        "codec_private_length": 0,
+        "content_encoding_algorithms": "0",
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "spa",
+        "language_ietf": "es",
+        "num_index_entries": 969,
+        "number": 11,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvpropedit v79.0 ('Funeral Pyres') 64-bit",
+        "tag__statistics_writing_date_utc": "2023-10-13 15:49:12",
+        "tag_bps": "21354",
+        "tag_duration": "00:39:18.731000000",
+        "tag_number_of_bytes": "6296211",
+        "tag_number_of_frames": "969",
+        "track_name": "Full Subtitles [USBD] (PGS)",
+        "uid": 1477966576355309707
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}

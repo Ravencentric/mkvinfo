@@ -1,0 +1,459 @@
+{
+  "attachments": [
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Carlisle_Regular.ttf",
+      "id": 1,
+      "properties": {
+        "uid": 5663032032689661452
+      },
+      "size": 44012
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Cheryl Hand_V2.ttf",
+      "id": 2,
+      "properties": {
+        "uid": 7274005681182643540
+      },
+      "size": 23268
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Comix Loud.ttf",
+      "id": 3,
+      "properties": {
+        "uid": 17769517045362062448
+      },
+      "size": 14164
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Comixheavy.ttf",
+      "id": 4,
+      "properties": {
+        "uid": 3566217687049463533
+      },
+      "size": 39060
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "Corbert-Regular.otf",
+      "id": 5,
+      "properties": {
+        "uid": 13130845318622573873
+      },
+      "size": 106600
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "CrashcourseBB_reg.ttf",
+      "id": 6,
+      "properties": {
+        "uid": 1637319565079806679
+      },
+      "size": 39564
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "Delicious-Bold.otf",
+      "id": 7,
+      "properties": {
+        "uid": 17272378967915170505
+      },
+      "size": 24648
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "Delicious-BoldItalic.otf",
+      "id": 8,
+      "properties": {
+        "uid": 3962946702449797398
+      },
+      "size": 25424
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "FloweringBuds.ttf",
+      "id": 9,
+      "properties": {
+        "uid": 13960542303753537819
+      },
+      "size": 18076
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "FromWhereYouAre.ttf",
+      "id": 10,
+      "properties": {
+        "uid": 4309047920019148774
+      },
+      "size": 158396
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "HeiseiMaruGoStd-W4.ttf",
+      "id": 11,
+      "properties": {
+        "uid": 2414703519333432754
+      },
+      "size": 73144
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "helr67w.ttf",
+      "id": 12,
+      "properties": {
+        "uid": 12658582382670652325
+      },
+      "size": 84056
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "IwaGyoPro-Bd-Kami.ttf",
+      "id": 13,
+      "properties": {
+        "uid": 11365931545877880060
+      },
+      "size": 454600
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "IwaOMinPro-Bd-Fate.ttf",
+      "id": 14,
+      "properties": {
+        "uid": 7497697031834296068
+      },
+      "size": 700900
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "KOZMIN~1Strippedv2.otf",
+      "id": 15,
+      "properties": {
+        "uid": 8038939522307044068
+      },
+      "size": 110076
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Paper Johnny Eins.ttf",
+      "id": 16,
+      "properties": {
+        "uid": 13081367833733080153
+      },
+      "size": 38672
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "8051781869.ttf",
+      "id": 17,
+      "properties": {
+        "uid": 7580572948905853917
+      },
+      "size": 38764
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "A-OTF-JunPro-Stripped-Bold.ttf",
+      "id": 18,
+      "properties": {
+        "uid": 17505400502937935931
+      },
+      "size": 577652
+    },
+    {
+      "content_type": "font/otf",
+      "description": "",
+      "file_name": "ArnoPro-Regular.otf",
+      "id": 19,
+      "properties": {
+        "uid": 6513062370968012117
+      },
+      "size": 404236
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "BlambotPro.ttf",
+      "id": 20,
+      "properties": {
+        "uid": 17450667183143409767
+      },
+      "size": 29704
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "BRUS445N.TTF",
+      "id": 21,
+      "properties": {
+        "uid": 1497546794764687563
+      },
+      "size": 63728
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "AveriaSerif-Light.ttf",
+      "id": 22,
+      "properties": {
+        "uid": 4212376890339759266
+      },
+      "size": 77504
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Maiandra GD Demi Bold.ttf",
+      "id": 23,
+      "properties": {
+        "uid": 15666247932378816024
+      },
+      "size": 60716
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "Maiandra GD Regular.ttf",
+      "id": 24,
+      "properties": {
+        "uid": 1968971709659656251
+      },
+      "size": 61384
+    },
+    {
+      "content_type": "font/ttf",
+      "description": "",
+      "file_name": "AveriaSerif-Bold",
+      "id": 25,
+      "properties": {
+        "uid": 8084494764474467454
+      },
+      "size": 81840
+    }
+  ],
+  "chapters": [
+    {
+      "num_entries": 5
+    }
+  ],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2022-10-13T23:09:49+05:30",
+      "date_utc": "2022-10-13T17:39:49Z",
+      "duration": 1370953000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.4.4 + libmatroska v1.7.1",
+      "segment_uid": "50d59ccaa2c7adbf11d369787027dee5",
+      "timestamp_scale": 1000000,
+      "title": "Monotone/Colorful | Your Lie in April / Shigatsu wa Kimi no Uso - S01E01",
+      "writing_application": "mkvmerge v71.1.0 ('Fortitude') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "[sam] Shigatsu wa Kimi no Uso - 01 [BD 1080p FLAC] [AC0869E2].mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "HEVC/H.265/MPEG-H",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEGH/ISO/HEVC",
+        "codec_private_length": 2553,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 508,
+        "number": 1,
+        "packetizer": "mpegh_p2_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v71.1.0 ('Fortitude') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-10-13 17:39:49",
+        "tag_bps": "15464440",
+        "tag_duration": "00:22:50.953000000",
+        "tag_number_of_bytes": "2650127561",
+        "tag_number_of_frames": "32870",
+        "track_name": "BDrip by sam",
+        "uid": 14440348777298059254
+      },
+      "type": "video"
+    },
+    {
+      "codec": "FLAC",
+      "id": 1,
+      "properties": {
+        "audio_bits_per_sample": 16,
+        "audio_channels": 2,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_FLAC",
+        "codec_private_length": 2602,
+        "default_duration": 85333333,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v71.1.0 ('Fortitude') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-10-13 17:39:49",
+        "tag_bps": "683498",
+        "tag_duration": "00:22:50.953000000",
+        "tag_number_of_bytes": "117130568",
+        "tag_number_of_frames": "16066",
+        "track_name": "FLAC 2.0",
+        "uid": 10815177267595904437
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "FLAC",
+      "id": 2,
+      "properties": {
+        "audio_bits_per_sample": 16,
+        "audio_channels": 2,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_FLAC",
+        "codec_private_length": 2602,
+        "default_duration": 85333333,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v71.1.0 ('Fortitude') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-10-13 17:39:49",
+        "tag_bps": "692217",
+        "tag_duration": "00:22:50.953000000",
+        "tag_number_of_bytes": "118624750",
+        "tag_number_of_frames": "16066",
+        "track_name": "FLAC 2.0",
+        "uid": 9638459232586670582
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 3,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 20978,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "minimum_timestamp": 7490000000,
+        "num_index_entries": 7712,
+        "number": 4,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v71.1.0 ('Fortitude') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-10-13 17:39:49",
+        "tag_bps": "9870",
+        "tag_duration": "00:22:35.850000000",
+        "tag_number_of_bytes": "1672866",
+        "tag_number_of_frames": "7712",
+        "text_subtitles": true,
+        "track_name": "Full Subtitles [Arid]",
+        "uid": 7243765800254146116
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 4,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 20978,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "enm",
+        "language_ietf": "enm",
+        "minimum_timestamp": 7490000000,
+        "num_index_entries": 7712,
+        "number": 5,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v71.1.0 ('Fortitude') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-10-13 17:39:49",
+        "tag_bps": "9870",
+        "tag_duration": "00:22:35.850000000",
+        "tag_number_of_bytes": "1672882",
+        "tag_number_of_frames": "7712",
+        "text_subtitles": true,
+        "track_name": "Full Subtitles (Honorifics) [Arid]",
+        "uid": 12793978930519223540
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 5,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 20864,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": true,
+        "language": "eng",
+        "language_ietf": "en",
+        "minimum_timestamp": 7490000000,
+        "num_index_entries": 7419,
+        "number": 6,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v71.1.0 ('Fortitude') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-10-13 17:39:49",
+        "tag_bps": "9774",
+        "tag_duration": "00:22:35.850000000",
+        "tag_number_of_bytes": "1656546",
+        "tag_number_of_frames": "7419",
+        "text_subtitles": true,
+        "track_name": "Signs/Songs [Arid]",
+        "uid": 7894976358188689200
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}

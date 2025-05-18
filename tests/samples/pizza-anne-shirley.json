@@ -1,0 +1,145 @@
+{
+  "attachments": [
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "Crimson-Roman.otf",
+      "id": 1,
+      "properties": {
+        "uid": 17555625798022855054
+      },
+      "size": 194244
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "FiraSans-Medium.ttf",
+      "id": 2,
+      "properties": {
+        "uid": 847158294343043929
+      },
+      "size": 441000
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "FiraSans-MediumItalic.ttf",
+      "id": 3,
+      "properties": {
+        "uid": 6215710377038007620
+      },
+      "size": 456472
+    }
+  ],
+  "chapters": [],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2025-04-09T13:18:39+05:30",
+      "date_utc": "2025-04-09T07:48:39Z",
+      "duration": 1440078000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.4.5 + libmatroska v1.7.1",
+      "segment_uid": "139fbc4e0ec66aacce8686add0cc35a8",
+      "timestamp_scale": 1000000,
+      "title": "[Pizza] Anne Shirley (2025) - S01E01",
+      "writing_application": "mkvmerge v90.0 ('Hanging On') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "[Pizza] Anne Shirley (2025) - S01E01 [WEB 1080p HEVC AAC].mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "HEVC/H.265/MPEG-H",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEGH/ISO/HEVC",
+        "codec_private_length": 2464,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "und",
+        "language_ietf": "und",
+        "minimum_timestamp": 0,
+        "num_index_entries": 314,
+        "number": 1,
+        "packetizer": "mpegh_p2_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v90.0 ('Hanging On') 64-bit",
+        "tag__statistics_writing_date_utc": "2025-04-09 07:48:39",
+        "tag_bps": "7226395",
+        "tag_duration": "00:24:00.022000000",
+        "tag_number_of_bytes": "1300770974",
+        "tag_number_of_frames": "34526",
+        "uid": 17287273988303503328
+      },
+      "type": "video"
+    },
+    {
+      "codec": "AAC",
+      "id": 1,
+      "properties": {
+        "audio_channels": 2,
+        "audio_sampling_frequency": 44100,
+        "codec_id": "A_AAC",
+        "codec_private_length": 2,
+        "default_duration": 23219954,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v90.0 ('Hanging On') 64-bit",
+        "tag__statistics_writing_date_utc": "2025-04-09 07:48:39",
+        "tag_bps": "128000",
+        "tag_duration": "00:24:00.078000000",
+        "tag_number_of_bytes": "23041254",
+        "tag_number_of_frames": "62019",
+        "uid": 2
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 2,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 1424,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "minimum_timestamp": 3940000000,
+        "num_index_entries": 344,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v90.0 ('Hanging On') 64-bit",
+        "tag__statistics_writing_date_utc": "2025-04-09 07:48:39",
+        "tag_bps": "134",
+        "tag_duration": "00:23:56.060000000",
+        "tag_number_of_bytes": "24091",
+        "tag_number_of_frames": "344",
+        "text_subtitles": true,
+        "uid": 7675188590864031944
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}

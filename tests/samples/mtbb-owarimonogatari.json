@@ -1,0 +1,292 @@
+{
+  "attachments": [
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Aquifer.ttf",
+      "id": 1,
+      "properties": {
+        "uid": 8731574847915569142
+      },
+      "size": 109744
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Arial Rounded MT.ttf",
+      "id": 2,
+      "properties": {
+        "uid": 18315827910206934764
+      },
+      "size": 53968
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Averia-Light.ttf",
+      "id": 3,
+      "properties": {
+        "uid": 1787350751661480804
+      },
+      "size": 76940
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "DESIB.TTF",
+      "id": 4,
+      "properties": {
+        "uid": 1693620027118197510
+      },
+      "size": 42760
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "FRADM.TTF",
+      "id": 5,
+      "properties": {
+        "uid": 14392120223135459647
+      },
+      "size": 142932
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "framd_0.ttf",
+      "id": 6,
+      "properties": {
+        "uid": 2961204303530267465
+      },
+      "size": 139332
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "IwaMinPro-Lt-Madoka_0.ttf",
+      "id": 7,
+      "properties": {
+        "uid": 12215508036247148990
+      },
+      "size": 544164
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "IwaOMinPro-Bd-Fate_0.ttf",
+      "id": 8,
+      "properties": {
+        "uid": 7079350559851677194
+      },
+      "size": 700900
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "LHF_Scriptana_0.ttf",
+      "id": 9,
+      "properties": {
+        "uid": 3781571648024145972
+      },
+      "size": 64248
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "Montara-Gothic_0.otf",
+      "id": 10,
+      "properties": {
+        "uid": 7430698402229912550
+      },
+      "size": 45316
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "Montara-Italic_0.otf",
+      "id": 11,
+      "properties": {
+        "uid": 10034238365591090317
+      },
+      "size": 42608
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Paper Johnny Eins.ttf",
+      "id": 12,
+      "properties": {
+        "uid": 9201154633672386945
+      },
+      "size": 38672
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "pastel crayon.ttf",
+      "id": 13,
+      "properties": {
+        "uid": 13193962989624531790
+      },
+      "size": 303164
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "PIXEARG.TTF",
+      "id": 14,
+      "properties": {
+        "uid": 3732779209123156418
+      },
+      "size": 57520
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "SPONGED.TTF",
+      "id": 15,
+      "properties": {
+        "uid": 16152750708401791515
+      },
+      "size": 170776
+    }
+  ],
+  "chapters": [
+    {
+      "num_entries": 4
+    }
+  ],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2022-04-10T03:34:50+05:30",
+      "date_utc": "2022-04-09T22:04:50Z",
+      "duration": 1632640000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.3.5 + libmatroska v1.4.8",
+      "segment_uid": "8a74f853e1e8fd8639c2697b51d24616",
+      "timestamp_scale": 1000000,
+      "writing_application": "mkvmerge v19.0.0 ('Brave Captain') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "[MTBB] Owarimonogatari S1 - 01 [03068297].mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "HEVC/H.265/MPEG-H",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEGH/ISO/HEVC",
+        "codec_private_length": 2419,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "und",
+        "minimum_timestamp": 0,
+        "num_index_entries": 387,
+        "number": 1,
+        "packetizer": "mpegh_p2_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-04-09 22:04:50",
+        "tag_bps": "3616459",
+        "tag_duration": "00:27:12.631000000",
+        "tag_number_of_bytes": "738043032",
+        "tag_number_of_frames": "39144",
+        "uid": 6027008646433473937
+      },
+      "type": "video"
+    },
+    {
+      "codec": "AAC",
+      "id": 1,
+      "properties": {
+        "audio_channels": 2,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_AAC",
+        "codec_private_length": 2,
+        "default_duration": 21333333,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-04-09 22:04:50",
+        "tag_bps": "280789",
+        "tag_duration": "00:27:12.640000000",
+        "tag_number_of_bytes": "57303601",
+        "tag_number_of_frames": "76530",
+        "uid": 1016217452944718106
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 2,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 5395,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "minimum_timestamp": 270000000,
+        "num_index_entries": 1829,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-04-09 22:04:50",
+        "tag_bps": "1574",
+        "tag_duration": "00:27:04.280000000",
+        "tag_number_of_bytes": "319712",
+        "tag_number_of_frames": "1829",
+        "text_subtitles": true,
+        "uid": 14335639865842127048
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 3,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 5391,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "enm",
+        "minimum_timestamp": 270000000,
+        "num_index_entries": 1829,
+        "number": 4,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-04-09 22:04:50",
+        "tag_bps": "1574",
+        "tag_duration": "00:27:04.280000000",
+        "tag_number_of_bytes": "319756",
+        "tag_number_of_frames": "1829",
+        "text_subtitles": true,
+        "track_name": "Honorifics",
+        "uid": 16748813026893254227
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}
