@@ -1,0 +1,264 @@
+from __future__ import annotations
+
+import sys
+from datetime import datetime
+from pathlib import Path
+from typing import TYPE_CHECKING, Any
+
+import msgspec
+
+from mkvinfo._errors import ExecutableNotFoundError
+from mkvinfo._utils import mkvmerge_run
+
+if sys.version_info >= (3, 11):
+    from enum import StrEnum
+else:
+    from enum import Enum
+
+    class StrEnum(str, Enum):
+        pass
+
+
+if TYPE_CHECKING:
+    from os import PathLike
+
+    from typing_extensions import Self
+
+
+class Base(
+    msgspec.Struct,
+    repr_omit_defaults=True,
+    frozen=True,
+    kw_only=True,
+):
+    """Base class for `mkvmerge` data structures."""
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any], /) -> Self:
+        """
+        Create an instance of this class from a dictionary.
+
+        Parameters
+        ----------
+        data : dict[str, Any]
+            Dictionary representing the instance of this class.
+
+        Returns
+        -------
+        Self
+            An instance of this class.
+
+        """
+        return msgspec.convert(data, type=cls)
+
+    def to_dict(self) -> dict[str, Any]:
+        """
+        Serialize the instance of this class into a dictionary.
+
+        Returns
+        -------
+        dict[str, Any]
+            Dictionary representing the instance of this class.
+
+        """
+        return msgspec.to_builtins(self)  # type: ignore[no-any-return]
+
+    @classmethod
+    def from_json(cls, data: str | bytes, /) -> Self:
+        """
+        Create an instance of this class from JSON data.
+
+        Parameters
+        ----------
+        data : str | bytes
+            JSON data representing the instance of this class.
+
+        Returns
+        -------
+        Self
+            An instance of this class.
+
+        """
+        return msgspec.json.decode(data, type=cls)
+
+    def to_json(self, *, indent: int = 2) -> str:
+        """
+        Serialize the instance of this class into a JSON string.
+
+        Parameters
+        ----------
+        indent : int, optional
+            Number of spaces for indentation.
+            Set to 0 for a single line with spacing,
+            or negative to minimize size by removing extra whitespace.
+
+        Returns
+        -------
+        str
+            JSON string representing this class.
+
+        """
+        jsonified = msgspec.json.encode(self)
+        return msgspec.json.format(jsonified, indent=indent).decode()
+
+
+class Attachment(Base, frozen=True, kw_only=True):
+    file_name: str
+    id: int
+    size: int
+    content_type: str | None = None
+    description: str | None = None
+
+
+class ContainerProperties(Base, frozen=True, kw_only=True):
+    container_type: int | None = None
+    date_local: datetime | None = None
+    date_utc: datetime | None = None
+    duration: int | None = None
+    is_providing_timestamps: bool | None = None
+    muxing_application: str | None = None
+    timestamp_scale: int | None = None
+    title: str | None = None
+    writing_application: str | None = None
+
+
+class Container(Base, frozen=True, kw_only=True):
+    recognized: bool
+    supported: bool
+    properties: ContainerProperties | None = None
+    type: str | None = None
+
+
+class TrackProperties(Base, frozen=True, kw_only=True):
+    alpha_mode: int | None = None
+    audio_bits_per_sample: int | None = None
+    audio_channels: int | None = None
+    audio_emphasis: int | None = None
+    audio_sampling_frequency: int | None = None
+    cb_subsample: str | None = None
+    chroma_siting: str | None = None
+    chroma_subsample: str | None = None
+    chromaticity_coordinates: str | None = None
+    codec_delay: int | None = None
+    codec_id: str | None = None
+    codec_name: str | None = None
+    content_encoding_algorithms: str | None = None
+    color_bits_per_channel: int | None = None
+    color_matrix_coefficients: int | None = None
+    color_primaries: int | None = None
+    color_range: int | None = None
+    color_transfer_characteristics: int | None = None
+    default_duration: int | None = None
+    default_track: bool | None = None
+    display_dimensions: str | None = None
+    display_unit: int | None = None
+    enabled_track: bool | None = None
+    encoding: str | None = None
+    forced_track: bool | None = None
+    flag_hearing_impaired: bool | None = None
+    flag_visual_impaired: bool | None = None
+    flag_text_descriptions: bool | None = None
+    flag_original: bool | None = None
+    flag_commentary: bool | None = None
+    language: str | None = None
+    language_ietf: str | None = None
+    max_content_light: int | None = None
+    max_frame_light: int | None = None
+    max_luminance: float | None = None
+    min_luminance: float | None = None
+    minimum_timestamp: int | None = None
+    multiplexed_tracks: tuple[int, ...] | None = None
+    number: int | None = None
+    num_index_entries: int | None = None
+    packetizer: str | None = None
+    pixel_dimensions: str | None = None
+    program_number: int | None = None
+    projection_pose_pitch: float | None = None
+    projection_pose_roll: float | None = None
+    projection_pose_yaw: float | None = None
+    projection_private: str | None = None
+    projection_type: int | None = None
+    stereo_mode: int | None = None
+    stream_id: int | None = None
+    sub_stream_id: int | None = None
+    teletext_page: int | None = None
+    text_subtitles: bool | None = None
+    track_name: str | None = None
+    uid: int | None = None
+    white_color_coordinates: str | None = None
+
+
+class TrackType(StrEnum):
+    VIDEO = "video"
+    AUDIO = "audio"
+    SUBTITLES = "subtitles"
+
+
+class Track(Base, frozen=True, kw_only=True):
+    codec: str
+    id: int
+    type: TrackType
+    properties: TrackProperties | None = None
+
+
+class MKVInfo(Base, frozen=True, kw_only=True):
+    file_name: str
+    container: Container | None = None
+    attachments: tuple[Attachment, ...] | None = None
+    tracks: tuple[Track, ...] | None = None
+    identification_format_version: int | None = None
+
+    @classmethod
+    def from_file(
+        cls,
+        file: str | PathLike[str],
+        /,
+        *,
+        mkvmerge: str | PathLike[str] | None = None,
+    ) -> Self:  # pragma: no cover
+        """
+        Create an instance of this class from a file.
+
+        This method uses [`mkvmerge`][0] in a subprocess
+        to extract the information.
+
+        [0]: https://mkvtoolnix.download/doc/mkvmerge.html
+
+        Parameters
+        ----------
+        file : str | PathLike[str]
+            Path to the file.
+        mkvmerge : str | PathLike[str] | None, optional
+            Optional path to the `mkvmerge` executable. If provided,
+            this path will be used instead of searching the system's `$PATH`.
+
+        Returns
+        -------
+        Self
+            An instance of this class.
+
+        Raises
+        ------
+        FileNotFoundError
+            If the provided file path does not exist or is not a valid file.
+        ExecutableNotFoundError
+            If the `mkvmerge` executable is not found.
+        MKVInfoError
+            For other errors that occur during the execution of the `mkvmerge`.
+
+        """
+        file = Path(file)
+        if not file.is_file():
+            raise FileNotFoundError(file)
+
+        if mkvmerge is not None:
+            mkvmerge = Path(mkvmerge)
+            if not mkvmerge.is_file():
+                msg = (
+                    f"Provided mkvmerge path '{mkvmerge}' "
+                    "does not exist or is not a valid file."
+                )
+                raise ExecutableNotFoundError(msg)
+
+        data = mkvmerge_run(file, exe=mkvmerge)
+        return cls.from_json(data)

@@ -1,0 +1,257 @@
+{
+  "attachments": [
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Roboto-Medium.ttf",
+      "id": 1,
+      "properties": {
+        "uid": 1
+      },
+      "size": 351704
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Roboto-MediumItalic.ttf",
+      "id": 2,
+      "properties": {
+        "uid": 2
+      },
+      "size": 378412
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "arial.ttf",
+      "id": 3,
+      "properties": {
+        "uid": 3
+      },
+      "size": 892680
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "arialbd.ttf",
+      "id": 4,
+      "properties": {
+        "uid": 4
+      },
+      "size": 854584
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "comic.ttf",
+      "id": 5,
+      "properties": {
+        "uid": 5
+      },
+      "size": 240588
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "comicbd.ttf",
+      "id": 6,
+      "properties": {
+        "uid": 6
+      },
+      "size": 224404
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "times.ttf",
+      "id": 7,
+      "properties": {
+        "uid": 7
+      },
+      "size": 975228
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "timesbd.ttf",
+      "id": 8,
+      "properties": {
+        "uid": 8
+      },
+      "size": 980120
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "trebuc.ttf",
+      "id": 9,
+      "properties": {
+        "uid": 9
+      },
+      "size": 218432
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "trebucbd.ttf",
+      "id": 10,
+      "properties": {
+        "uid": 10
+      },
+      "size": 206776
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "verdana.ttf",
+      "id": 11,
+      "properties": {
+        "uid": 11
+      },
+      "size": 240456
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "verdanab.ttf",
+      "id": 12,
+      "properties": {
+        "uid": 12
+      },
+      "size": 208456
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "CONSOLA.TTF",
+      "id": 13,
+      "properties": {
+        "uid": 13
+      },
+      "size": 358460
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "CONSOLAB.TTF",
+      "id": 14,
+      "properties": {
+        "uid": 14
+      },
+      "size": 368720
+    }
+  ],
+  "chapters": [],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "1970-01-01T05:30:00+05:30",
+      "date_utc": "1970-01-01T00:00:00Z",
+      "duration": 1520071000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "no_variable_data",
+      "segment_uid": "00000000000000000000000000000000",
+      "timestamp_scale": 1000000,
+      "writing_application": "no_variable_data"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "[SubsPlease] Kowloon Generic Romance - 06 (1080p) [71688804].mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "AVC/H.264/MPEG-4p10",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEG4/ISO/AVC",
+        "codec_private_length": 49,
+        "color_matrix_coefficients": 1,
+        "color_primaries": 1,
+        "color_transfer_characteristics": 1,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "und",
+        "language_ietf": "und",
+        "minimum_timestamp": 0,
+        "num_index_entries": 760,
+        "number": 1,
+        "packetizer": "mpeg4_p10_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "no_variable_data",
+        "tag__statistics_writing_date_utc": "1970-01-01 00:00:00",
+        "tag_bps": "7978214",
+        "tag_duration": "00:25:20.020000000",
+        "tag_number_of_bytes": "1515880666",
+        "tag_number_of_frames": "36444",
+        "uid": 1
+      },
+      "type": "video"
+    },
+    {
+      "codec": "AAC",
+      "id": 1,
+      "properties": {
+        "audio_channels": 2,
+        "audio_sampling_frequency": 44100,
+        "codec_id": "A_AAC",
+        "codec_private_length": 2,
+        "default_duration": 23219954,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "no_variable_data",
+        "tag__statistics_writing_date_utc": "1970-01-01 00:00:00",
+        "tag_bps": "128000",
+        "tag_duration": "00:25:20.071000000",
+        "tag_number_of_bytes": "24321138",
+        "tag_number_of_frames": "65464",
+        "uid": 2
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 2,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 3169,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 419,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "no_variable_data",
+        "tag__statistics_writing_date_utc": "1970-01-01 00:00:00",
+        "tag_bps": "141",
+        "tag_duration": "00:25:06.710000000",
+        "tag_number_of_bytes": "26597",
+        "tag_number_of_frames": "419",
+        "text_subtitles": true,
+        "track_name": "English subs",
+        "uid": 3
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}

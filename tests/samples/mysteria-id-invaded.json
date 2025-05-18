@@ -1,0 +1,279 @@
+{
+  "attachments": [
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "YagiUhfNo2.otf",
+      "id": 1,
+      "properties": {
+        "uid": 6949795845059326921
+      },
+      "size": 20212
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Emotion Engine Bold.otf",
+      "id": 2,
+      "properties": {
+        "uid": 2525355673355256704
+      },
+      "size": 23044
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "High_Tower_Text_Bold.ttf",
+      "id": 3,
+      "properties": {
+        "uid": 9569267024230102328
+      },
+      "size": 352028
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Stem-Light.ttf",
+      "id": 4,
+      "properties": {
+        "uid": 440856478405482491
+      },
+      "size": 201400
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Stem-Medium.ttf",
+      "id": 5,
+      "properties": {
+        "uid": 1519526235830338171
+      },
+      "size": 199124
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Stem-Medium_0.ttf",
+      "id": 6,
+      "properties": {
+        "uid": 17627470410532433955
+      },
+      "size": 199124
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Stem-Regular.ttf",
+      "id": 7,
+      "properties": {
+        "uid": 9611124185619837943
+      },
+      "size": 201828
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "Stem-Regular_0.ttf",
+      "id": 8,
+      "properties": {
+        "uid": 702264619437005624
+      },
+      "size": 201828
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "GandhiSans-BoldItalic.otf",
+      "id": 9,
+      "properties": {
+        "uid": 11399714617071808240
+      },
+      "size": 114888
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "GandhiSans-Bold.otf",
+      "id": 10,
+      "properties": {
+        "uid": 16567034061202414652
+      },
+      "size": 106728
+    }
+  ],
+  "chapters": [
+    {
+      "num_entries": 3
+    }
+  ],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2021-03-06T08:29:57+05:30",
+      "date_utc": "2021-03-06T02:59:57Z",
+      "duration": 1504250000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.4.2 + libmatroska v1.6.3",
+      "segment_uid": "b72581e1d1b93a56db869ba73898ec2e",
+      "timestamp_scale": 1000000,
+      "title": "[Mysteria] ID\u1393INVADED - S01E01 v3 (BD 1080p HEVC FLAC)",
+      "writing_application": "mkvmerge v54.0.0 ('F Maj Pixie') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "[Mysteria] ID\u1393INVADED - S01E01 v3 (BD 1080p HEVC FLAC) [619EF2E4].mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "HEVC/H.265/MPEG-H",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEGH/ISO/HEVC",
+        "codec_private_length": 2527,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 289,
+        "number": 1,
+        "packetizer": "mpegh_p2_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v54.0.0 ('F Maj Pixie') 64-bit",
+        "tag__statistics_writing_date_utc": "2021-03-06 02:59:57",
+        "tag_bps": "4679583",
+        "tag_duration": "00:24:41.939000000",
+        "tag_number_of_bytes": "866857119",
+        "tag_number_of_frames": "35531",
+        "track_name": "VCB-Studio h265 10-bit",
+        "uid": 16150840492554682700
+      },
+      "type": "video"
+    },
+    {
+      "codec": "FLAC",
+      "id": 1,
+      "properties": {
+        "audio_bits_per_sample": 16,
+        "audio_channels": 6,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_FLAC",
+        "codec_private_length": 113,
+        "default_duration": 85333333,
+        "default_track": false,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v54.0.0 ('F Maj Pixie') 64-bit",
+        "tag__statistics_writing_date_utc": "2021-03-06 02:59:57",
+        "tag_bps": "1377697",
+        "tag_duration": "00:24:41.940000000",
+        "tag_number_of_bytes": "255208061",
+        "tag_number_of_frames": "17367",
+        "track_name": "English 5.1 FLAC",
+        "uid": 8333537757046835903
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "FLAC",
+      "id": 2,
+      "properties": {
+        "audio_bits_per_sample": 16,
+        "audio_channels": 2,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_FLAC",
+        "codec_private_length": 4186,
+        "default_duration": 96000000,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "language_ietf": "ja",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v54.0.0 ('F Maj Pixie') 64-bit",
+        "tag__statistics_writing_date_utc": "2021-03-06 02:59:57",
+        "tag_bps": "575538",
+        "tag_duration": "00:24:41.940000000",
+        "tag_number_of_bytes": "106614133",
+        "tag_number_of_frames": "15437",
+        "track_name": "Japanese 2.0 FLAC",
+        "uid": 14748086758695668394
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 3,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 2214,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "zxx",
+        "language_ietf": "zxx",
+        "num_index_entries": 95,
+        "number": 4,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v54.0.0 ('F Maj Pixie') 64-bit",
+        "tag__statistics_writing_date_utc": "2021-03-06 02:59:57",
+        "tag_bps": "149",
+        "tag_duration": "00:09:10.590000000",
+        "tag_number_of_bytes": "10316",
+        "tag_number_of_frames": "95",
+        "text_subtitles": true,
+        "track_name": "Signs/Songs (Mysteria)",
+        "uid": 16465694088963066108
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 4,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 2149,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "language_ietf": "en",
+        "num_index_entries": 353,
+        "number": 5,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v54.0.0 ('F Maj Pixie') 64-bit",
+        "tag__statistics_writing_date_utc": "2021-03-06 02:59:57",
+        "tag_bps": "152",
+        "tag_duration": "00:22:58.240000000",
+        "tag_number_of_bytes": "26195",
+        "tag_number_of_frames": "353",
+        "text_subtitles": true,
+        "track_name": "Full Subtitles (Mysteria)",
+        "uid": 4630891906293991896
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}

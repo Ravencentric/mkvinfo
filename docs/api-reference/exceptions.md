@@ -1,0 +1,2 @@
+::: mkvinfo.MKVInfoError
+::: mkvinfo.ExecutableNotFoundError

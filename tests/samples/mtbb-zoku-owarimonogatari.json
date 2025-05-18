@@ -1,0 +1,412 @@
+{
+  "attachments": [
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "AFONTWITHSERIFS.TTF",
+      "id": 1,
+      "properties": {
+        "uid": 14770840318891806980
+      },
+      "size": 56396
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "ANTIQUEOLIVESTD-LIGHT.OTF",
+      "id": 2,
+      "properties": {
+        "uid": 11728534705109062623
+      },
+      "size": 27916
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "BELLGOTHICSTD-MED.OTF",
+      "id": 3,
+      "properties": {
+        "uid": 13053708695979795976
+      },
+      "size": 30904
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "BOLTON.TTF",
+      "id": 4,
+      "properties": {
+        "uid": 7762490248803125749
+      },
+      "size": 27268
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "CATENARYSTAMP.TTF",
+      "id": 5,
+      "properties": {
+        "uid": 17640105950665602973
+      },
+      "size": 455376
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "COMICKA.TTF",
+      "id": 6,
+      "properties": {
+        "uid": 5039700020190251658
+      },
+      "size": 26780
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "CRAYONAL.OTF",
+      "id": 7,
+      "properties": {
+        "uid": 14149602425388504883
+      },
+      "size": 1095688
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "ERASERDUST.TTF",
+      "id": 8,
+      "properties": {
+        "uid": 12937625488025434142
+      },
+      "size": 98456
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "GandhiSans-Bold.otf",
+      "id": 9,
+      "properties": {
+        "uid": 8824812097725747987
+      },
+      "size": 106728
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "GandhiSans-BoldItalic.otf",
+      "id": 10,
+      "properties": {
+        "uid": 10249382778908471230
+      },
+      "size": 114888
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "GENTIUMBASIC.TTF",
+      "id": 11,
+      "properties": {
+        "uid": 16937237778194793925
+      },
+      "size": 269048
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "GENTIUMBOOKBASIC.TTF",
+      "id": 12,
+      "properties": {
+        "uid": 13858990016799344857
+      },
+      "size": 272460
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "HAPOLEPENCIL.TTF",
+      "id": 13,
+      "properties": {
+        "uid": 7552494958089243261
+      },
+      "size": 316204
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "HIRAV8-W8.TTF",
+      "id": 14,
+      "properties": {
+        "uid": 13557245363039382329
+      },
+      "size": 83476
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "LHFSCRIPTANA-REGULAR.TTF",
+      "id": 15,
+      "properties": {
+        "uid": 638281564657869738
+      },
+      "size": 64248
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "MAILARTRUBBERSTAMP-REGULAR.OTF",
+      "id": 16,
+      "properties": {
+        "uid": 12581522607918161893
+      },
+      "size": 213436
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "Montara-Gothic_0.otf",
+      "id": 17,
+      "properties": {
+        "uid": 6204370336091379884
+      },
+      "size": 45316
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "Montara-Italic_0.otf",
+      "id": 18,
+      "properties": {
+        "uid": 14913302832615887759
+      },
+      "size": 42608
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "NOMORELIES.TTF",
+      "id": 19,
+      "properties": {
+        "uid": 18163152422008196147
+      },
+      "size": 286288
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "PENCILPETEFONT.OTF",
+      "id": 20,
+      "properties": {
+        "uid": 13788471675618444783
+      },
+      "size": 58700
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "QUADRAAT-BOLD.OTF",
+      "id": 21,
+      "properties": {
+        "uid": 8581582809328051273
+      },
+      "size": 34056
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "QUADRAAT-REGULAR.OTF",
+      "id": 22,
+      "properties": {
+        "uid": 6916707962947771424
+      },
+      "size": 33232
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "QUADRAATSANS-REGULAR.OTF",
+      "id": 23,
+      "properties": {
+        "uid": 3791861228674336544
+      },
+      "size": 27272
+    },
+    {
+      "content_type": "application/vnd.ms-opentype",
+      "description": "",
+      "file_name": "RESWYSOKR.OTF",
+      "id": 24,
+      "properties": {
+        "uid": 3974227810398864884
+      },
+      "size": 166036
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "SECONDBREAKFAST.TTF",
+      "id": 25,
+      "properties": {
+        "uid": 8130429868192435229
+      },
+      "size": 67148
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "SHRIMPFRIEDRICENO1.TTF",
+      "id": 26,
+      "properties": {
+        "uid": 235708587364887192
+      },
+      "size": 33368
+    },
+    {
+      "content_type": "application/x-truetype-font",
+      "description": "",
+      "file_name": "THEGUNSSMOKEST.TTF",
+      "id": 27,
+      "properties": {
+        "uid": 5464128013536319605
+      },
+      "size": 153220
+    }
+  ],
+  "chapters": [
+    {
+      "num_entries": 3
+    }
+  ],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2022-02-06T03:07:00+05:30",
+      "date_utc": "2022-02-05T21:37:00Z",
+      "duration": 1932245000000,
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.3.5 + libmatroska v1.4.8",
+      "segment_uid": "25b11dd4c900c496e831632adfa11dc5",
+      "timestamp_scale": 1000000,
+      "writing_application": "mkvmerge v19.0.0 ('Brave Captain') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "[MTBB] Zoku Owarimonogatari - 06v2 [CD210E16].mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [
+    {
+      "codec": "HEVC/H.265/MPEG-H",
+      "id": 0,
+      "properties": {
+        "codec_id": "V_MPEGH/ISO/HEVC",
+        "codec_private_length": 2420,
+        "default_duration": 41708333,
+        "default_track": true,
+        "display_dimensions": "1920x1080",
+        "display_unit": 0,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "und",
+        "minimum_timestamp": 0,
+        "num_index_entries": 455,
+        "number": 1,
+        "packetizer": "mpegh_p2_video",
+        "pixel_dimensions": "1920x1080",
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-02-05 21:37:00",
+        "tag_bps": "4073260",
+        "tag_duration": "00:32:12.222000000",
+        "tag_number_of_bytes": "983805525",
+        "tag_number_of_frames": "46327",
+        "uid": 1953867468873893224
+      },
+      "type": "video"
+    },
+    {
+      "codec": "AAC",
+      "id": 1,
+      "properties": {
+        "audio_channels": 2,
+        "audio_sampling_frequency": 48000,
+        "codec_id": "A_AAC",
+        "codec_private_length": 2,
+        "default_duration": 21333333,
+        "default_track": true,
+        "enabled_track": true,
+        "forced_track": false,
+        "language": "jpn",
+        "minimum_timestamp": 0,
+        "num_index_entries": 0,
+        "number": 2,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-02-05 21:37:00",
+        "tag_bps": "261180",
+        "tag_duration": "00:32:12.245000000",
+        "tag_number_of_bytes": "63083153",
+        "tag_number_of_frames": "90574",
+        "uid": 4882147747984862737
+      },
+      "type": "audio"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 2,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 40221,
+        "default_track": true,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "eng",
+        "minimum_timestamp": 780000000,
+        "num_index_entries": 3954,
+        "number": 3,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-02-05 21:37:00",
+        "tag_bps": "2068",
+        "tag_duration": "00:31:57.270000000",
+        "tag_number_of_bytes": "495786",
+        "tag_number_of_frames": "3954",
+        "text_subtitles": true,
+        "uid": 15271894679024951765
+      },
+      "type": "subtitles"
+    },
+    {
+      "codec": "SubStationAlpha",
+      "id": 3,
+      "properties": {
+        "codec_id": "S_TEXT/ASS",
+        "codec_private_length": 38925,
+        "default_track": false,
+        "enabled_track": true,
+        "encoding": "UTF-8",
+        "forced_track": false,
+        "language": "enm",
+        "minimum_timestamp": 780000000,
+        "num_index_entries": 3954,
+        "number": 4,
+        "tag__statistics_tags": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+        "tag__statistics_writing_app": "mkvmerge v19.0.0 ('Brave Captain') 64-bit",
+        "tag__statistics_writing_date_utc": "2022-02-05 21:37:00",
+        "tag_bps": "2074",
+        "tag_duration": "00:31:57.270000000",
+        "tag_number_of_bytes": "497176",
+        "tag_number_of_frames": "3954",
+        "text_subtitles": true,
+        "track_name": "Honorifics",
+        "uid": 12456110581586985620
+      },
+      "type": "subtitles"
+    }
+  ],
+  "warnings": []
+}

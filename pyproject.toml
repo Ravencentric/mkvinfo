@@ -1,0 +1,80 @@
+[project]
+name = "mkvinfo"
+version = "0.0.1"
+description = "Python library for probing matroska files with `mkvmerge`."
+readme = "README.md"
+authors = [{ name = "Ravencentric", email = "me@ravencentric.cc" }]
+requires-python = ">=3.10"
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+dependencies = ["msgspec>=0.19.0"]
+
+[dependency-groups]
+lint = ["mypy>=1.15.0", "ruff>=0.11.10"]
+test = ["coverage>=7.8.0", "pytest>=8.3.5", "syrupy>=4.9.1"]
+docs = [
+    "mkdocs-autorefs>=1.4.1",
+    "mkdocs-material>=9.6.14",
+    "mkdocstrings[python]>=0.29.1",
+]
+dev = [
+    { include-group = "docs" },
+    { include-group = "lint" },
+    { include-group = "test" },
+]
+
+[tool.ruff.lint]
+extend-select = [
+    "I",    # https://docs.astral.sh/ruff/rules/#isort-i
+    "DTZ",  # https://docs.astral.sh/ruff/rules/#flake8-datetimez-dtz
+    "RUF",  # https://docs.astral.sh/ruff/rules/#ruff-specific-rules-ruf
+    "UP",   # https://docs.astral.sh/ruff/rules/#pyupgrade-up
+    "N",    # https://docs.astral.sh/ruff/rules/#pep8-naming-n
+    "D4",   # https://docs.astral.sh/ruff/rules/#pydocstyle-d
+    "B",    # https://docs.astral.sh/ruff/rules/#flake8-bugbear-b
+    "FBT",  # https://docs.astral.sh/ruff/rules/#flake8-boolean-trap-fbt
+    "C4",   # https://docs.astral.sh/ruff/rules/#flake8-comprehensions-c4
+    "EM",   # https://docs.astral.sh/ruff/rules/#flake8-errmsg-em
+    "ISC",  # https://docs.astral.sh/ruff/rules/multi-line-implicit-string-concatenation/
+    "PIE",  # https://docs.astral.sh/ruff/rules/#flake8-pie-pie
+    "RET",  # https://docs.astral.sh/ruff/rules/#flake8-raise-rse
+    "PL",   # https://docs.astral.sh/ruff/rules/#pylint-pl
+    "E",    # https://docs.astral.sh/ruff/rules/#pycodestyle-e-w
+    "W",    # https://docs.astral.sh/ruff/rules/#pycodestyle-e-w
+    "FURB", # https://docs.astral.sh/ruff/rules/#refurb-furb
+    "TC",   # https://docs.astral.sh/ruff/rules/#flake8-type-checking-tc
+]
+fixable = ["ALL"]
+
+[tool.ruff.lint.flake8-type-checking]
+runtime-evaluated-base-classes = ["msgspec.Struct"]
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
+
+[tool.mypy]
+strict = true
+pretty = true
+files = ["src/**/*.py", "tests/**/*.py"]
+enable_error_code = ["ignore-without-code"]
+
+[tool.pytest.ini_options]
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+filterwarnings = ["error"]
+log_cli_level = "INFO"
+testpaths = ["tests"]
+
+[tool.coverage.report]
+exclude_also = [
+    "if TYPE_CHECKING:", # Only used for type-hints
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
