@@ -103,6 +103,8 @@ class Base(
 
 
 class Attachment(Base, frozen=True, kw_only=True):
+    """Represents an attachment in a matroska file."""
+
     file_name: str
     id: int
     size: int
@@ -111,6 +113,8 @@ class Attachment(Base, frozen=True, kw_only=True):
 
 
 class ContainerProperties(Base, frozen=True, kw_only=True):
+    """Represents the properties of the container."""
+
     container_type: int | None = None
     date_local: datetime | None = None
     date_utc: datetime | None = None
@@ -123,6 +127,8 @@ class ContainerProperties(Base, frozen=True, kw_only=True):
 
 
 class Container(Base, frozen=True, kw_only=True):
+    """Represents the container."""
+
     recognized: bool = False
     supported: bool = False
     properties: ContainerProperties = ContainerProperties()
@@ -130,6 +136,8 @@ class Container(Base, frozen=True, kw_only=True):
 
 
 class TrackProperties(Base, frozen=True, kw_only=True):
+    """Represents the properties of a track."""
+
     alpha_mode: int | None = None
     audio_bits_per_sample: int | None = None
     audio_channels: int | None = None
@@ -189,12 +197,16 @@ class TrackProperties(Base, frozen=True, kw_only=True):
 
 
 class TrackType(StrEnum):
+    """Represents the type of a track."""
+
     VIDEO = "video"
     AUDIO = "audio"
     SUBTITLES = "subtitles"
 
 
 class Track(Base, frozen=True, kw_only=True):
+    """Represents a track in a matroska file."""
+
     codec: str
     id: int
     type: TrackType
@@ -202,6 +214,18 @@ class Track(Base, frozen=True, kw_only=True):
 
 
 class MKVInfo(Base, frozen=True, kw_only=True):
+    """
+    Represents information about a matroska file as per the
+    [`mkvmerge-identification-output-schema-v20.json`][0].
+
+    The attributes represent exactly what's defined (or not defined)
+    in the [`mkvmerge` documentation][1] and that schema.
+    Please refer to those resources for details.
+
+    [0]: https://mkvtoolnix.download/doc/mkvmerge-identification-output-schema-v20.json
+    [1]: https://mkvtoolnix.download/doc/mkvmerge.html
+    """
+
     file_name: str
     container: Container = Container()
     attachments: tuple[Attachment, ...] = ()
