@@ -1,0 +1,26 @@
+{
+  "attachments": [],
+  "chapters": [],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2025-05-21T22:11:09+05:30",
+      "date_utc": "2025-05-21T16:41:09Z",
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.4.5 + libmatroska v1.7.1",
+      "segment_uid": "4868fbe0c57092fc7ac41849d97068a1",
+      "timestamp_scale": 1000000,
+      "writing_application": "mkvmerge v92.0 ('Everglow') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "errors": [],
+  "file_name": "no-tracks-or-attachments.mkv",
+  "global_tags": [],
+  "identification_format_version": 20,
+  "track_tags": [],
+  "tracks": [],
+  "warnings": []
+}

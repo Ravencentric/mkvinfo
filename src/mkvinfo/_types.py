@@ -123,9 +123,9 @@ class ContainerProperties(Base, frozen=True, kw_only=True):
 
 
 class Container(Base, frozen=True, kw_only=True):
-    recognized: bool
-    supported: bool
-    properties: ContainerProperties | None = None
+    recognized: bool = False
+    supported: bool = False
+    properties: ContainerProperties = ContainerProperties()
     type: str | None = None
 
 
@@ -198,14 +198,14 @@ class Track(Base, frozen=True, kw_only=True):
     codec: str
     id: int
     type: TrackType
-    properties: TrackProperties | None = None
+    properties: TrackProperties = TrackProperties()
 
 
 class MKVInfo(Base, frozen=True, kw_only=True):
     file_name: str
-    container: Container | None = None
-    attachments: tuple[Attachment, ...] | None = None
-    tracks: tuple[Track, ...] | None = None
+    container: Container = Container()
+    attachments: tuple[Attachment, ...] = ()
+    tracks: tuple[Track, ...] = ()
     identification_format_version: int | None = None
 
     @classmethod

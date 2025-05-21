@@ -1,0 +1,22 @@
+{
+  "attachments": [],
+  "container": {
+    "properties": {
+      "container_type": 17,
+      "date_local": "2025-05-21T22:11:09+05:30",
+      "date_utc": "2025-05-21T16:41:09Z",
+      "duration": null,
+      "is_providing_timestamps": true,
+      "muxing_application": "libebml v1.4.5 + libmatroska v1.7.1",
+      "timestamp_scale": 1000000,
+      "title": null,
+      "writing_application": "mkvmerge v92.0 ('Everglow') 64-bit"
+    },
+    "recognized": true,
+    "supported": true,
+    "type": "Matroska"
+  },
+  "file_name": "no-tracks-or-attachments.mkv",
+  "identification_format_version": 20,
+  "tracks": []
+}
