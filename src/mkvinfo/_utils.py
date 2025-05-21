@@ -31,15 +31,12 @@ def mkvmerge_exe() -> Path:
 
 @cache
 def mkvmerge_run(file: Path, *, exe: Path | None = None) -> bytes:  # pragma: no cover
-    charset = "UTF-8"
     try:
         proc = subprocess.run(
             (
                 exe if exe else mkvmerge_exe(),
-                "--command-line-charset",
-                charset,
                 "--output-charset",
-                charset,
+                "UTF-8",
                 "-J",
                 file,
             ),
