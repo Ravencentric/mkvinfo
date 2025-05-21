@@ -21,8 +21,11 @@ else:
 
 if TYPE_CHECKING:
     from os import PathLike
+    from typing import TypeAlias
 
     from typing_extensions import Self
+
+    StrPath: TypeAlias = str | PathLike[str]
 
 
 class Base(
@@ -235,10 +238,10 @@ class MKVInfo(Base, frozen=True, kw_only=True):
     @classmethod
     def from_file(
         cls,
-        file: str | PathLike[str],
+        file: StrPath,
         /,
         *,
-        mkvmerge: str | PathLike[str] | None = None,
+        mkvmerge: StrPath | None = None,
     ) -> Self:  # pragma: no cover
         """
         Create an instance of this class from a file.
@@ -250,9 +253,9 @@ class MKVInfo(Base, frozen=True, kw_only=True):
 
         Parameters
         ----------
-        file : str | PathLike[str]
+        file : StrPath
             Path to the file.
-        mkvmerge : str | PathLike[str] | None, optional
+        mkvmerge : StrPath | None, optional
             Optional path to the `mkvmerge` executable. If provided,
             this path will be used instead of searching the system's `$PATH`.
 
