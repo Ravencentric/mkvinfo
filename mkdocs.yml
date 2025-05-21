@@ -1,7 +1,7 @@
 # Project information
 site_name: mkvinfo
 site_author: Ravencentric
-site_description: Python library for probing matroska files with `mkvmerge`.
+site_description: Python library for probing matroska files with mkvmerge.
 
 # Repository
 repo_name: mkvinfo
@@ -44,7 +44,7 @@ plugins:
           import:
             - https://docs.python.org/3/objects.inv
             - https://typing-extensions.readthedocs.io/en/latest/objects.inv
-            - https://docs.pydantic.dev/latest/objects.inv
+            - https://jcristharif.com/msgspec/objects.inv
           paths: [src]
           options:
             members: true

@@ -1,7 +1,7 @@
 [project]
 name = "mkvinfo"
 version = "0.0.1"
-description = "Python library for probing matroska files with `mkvmerge`."
+description = "Python library for probing matroska files with mkvmerge."
 readme = "README.md"
 authors = [{ name = "Ravencentric", email = "me@ravencentric.cc" }]
 requires-python = ">=3.10"
