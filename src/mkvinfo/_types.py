@@ -11,11 +11,11 @@ from mkvinfo._errors import ExecutableNotFoundError
 from mkvinfo._utils import mkvmerge_run
 
 if sys.version_info >= (3, 11):
-    from enum import StrEnum
+    from enum import StrEnum as BaseStrEnum
 else:
     from enum import Enum
 
-    class StrEnum(str, Enum):
+    class BaseStrEnum(str, Enum):
         pass
 
 
@@ -26,6 +26,20 @@ if TYPE_CHECKING:
     from typing_extensions import Self
 
     StrPath: TypeAlias = str | PathLike[str]
+
+
+class StrEnum(BaseStrEnum):
+    @classmethod
+    def _missing_(cls, value: object) -> Self:
+        # https://docs.python.org/3/library/enum.html#enum.Enum._missing_
+        msg = f"'{value}' is not a valid {cls.__name__}"
+
+        if isinstance(value, str):
+            for member in cls:
+                if member.value.lower() == value.lower():
+                    return member
+            raise ValueError(msg)
+        raise ValueError(msg)
 
 
 class Base(
@@ -205,6 +219,18 @@ class TrackType(StrEnum):
     VIDEO = "video"
     AUDIO = "audio"
     SUBTITLES = "subtitles"
+
+    def is_video(self) -> bool:
+        """Check if this instance is a video track."""
+        return self is TrackType.VIDEO
+
+    def is_audio(self) -> bool:
+        """Check if this instance is an audio track."""
+        return self is TrackType.AUDIO
+
+    def is_subtitles(self) -> bool:
+        """Check if this instance is a subtitles track."""
+        return self is TrackType.SUBTITLES
 
 
 class Track(Base, frozen=True, kw_only=True):
