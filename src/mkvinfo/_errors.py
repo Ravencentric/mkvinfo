@@ -7,7 +7,7 @@ class MKVInfoError(Exception):
     __module__ = "mkvinfo"
 
     def __init_subclass__(cls) -> None:
-        # Ensure subclasses also appear as part of the public 'pynyaa' module
+        # Ensure subclasses also appear as part of the public 'mkvinfo' module
         # in tracebacks, instead of the internal implementation module.
         cls.__module__ = "mkvinfo"
 
