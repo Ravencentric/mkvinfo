@@ -29,7 +29,6 @@ def mkvmerge_exe() -> Path:
     raise ExecutableNotFoundError(msg)
 
 
-@cache
 def mkvmerge_run(file: Path, *, exe: Path | None = None) -> bytes:  # pragma: no cover
     try:
         proc = subprocess.run(
