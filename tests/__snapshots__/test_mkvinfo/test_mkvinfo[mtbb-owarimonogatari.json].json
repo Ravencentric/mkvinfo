@@ -109,8 +109,8 @@
   "container": {
     "properties": {
       "container_type": 17,
-      "date_local": "2022-04-10T03:34:50+05:30",
-      "date_utc": "2022-04-09T22:04:50Z",
+      "date_local": "2022-04-10T03:34:50.000000+0530",
+      "date_utc": "2022-04-09T22:04:50.000000+0000",
       "duration": 1632640000000,
       "is_providing_timestamps": true,
       "muxing_application": "libebml v1.3.5 + libmatroska v1.4.8",

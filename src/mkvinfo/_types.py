@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 import sys
+from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING
 
-import msgspec
+from pydantic import TypeAdapter
 
 from mkvinfo._errors import ExecutableNotFoundError
 from mkvinfo._utils import mkvmerge_run
@@ -42,84 +43,8 @@ class StrEnum(BaseStrEnum):
         raise ValueError(msg)
 
 
-class Base(
-    msgspec.Struct,
-    repr_omit_defaults=True,
-    frozen=True,
-    kw_only=True,
-):
-    """Base class for `mkvmerge` data structures."""
-
-    @classmethod
-    def from_dict(cls, data: dict[str, Any], /) -> Self:
-        """
-        Create an instance of this class from a dictionary.
-
-        Parameters
-        ----------
-        data : dict[str, Any]
-            Dictionary representing the instance of this class.
-
-        Returns
-        -------
-        Self
-            An instance of this class.
-
-        """
-        return msgspec.convert(data, type=cls)
-
-    def to_dict(self) -> dict[str, Any]:
-        """
-        Serialize the instance of this class into a dictionary.
-
-        Returns
-        -------
-        dict[str, Any]
-            Dictionary representing the instance of this class.
-
-        """
-        return msgspec.to_builtins(self)  # type: ignore[no-any-return]
-
-    @classmethod
-    def from_json(cls, data: str | bytes, /) -> Self:
-        """
-        Create an instance of this class from JSON data.
-
-        Parameters
-        ----------
-        data : str | bytes
-            JSON data representing the instance of this class.
-
-        Returns
-        -------
-        Self
-            An instance of this class.
-
-        """
-        return msgspec.json.decode(data, type=cls)
-
-    def to_json(self, *, indent: int = 2) -> str:
-        """
-        Serialize the instance of this class into a JSON string.
-
-        Parameters
-        ----------
-        indent : int, optional
-            Number of spaces for indentation.
-            Set to 0 for a single line with spacing,
-            or negative to minimize size by removing extra whitespace.
-
-        Returns
-        -------
-        str
-            JSON string representing this class.
-
-        """
-        jsonified = msgspec.json.encode(self)
-        return msgspec.json.format(jsonified, indent=indent).decode()
-
-
-class Attachment(Base, frozen=True, kw_only=True):
+@dataclass(frozen=True, kw_only=True, slots=True)
+class Attachment:
     """Represents an attachment in a matroska file."""
 
     file_name: str
@@ -129,7 +54,8 @@ class Attachment(Base, frozen=True, kw_only=True):
     description: str | None = None
 
 
-class ContainerProperties(Base, frozen=True, kw_only=True):
+@dataclass(frozen=True, kw_only=True, slots=True)
+class ContainerProperties:
     """Represents the properties of the container."""
 
     container_type: int | None = None
@@ -143,16 +69,18 @@ class ContainerProperties(Base, frozen=True, kw_only=True):
     writing_application: str | None = None
 
 
-class Container(Base, frozen=True, kw_only=True):
+@dataclass(frozen=True, kw_only=True, slots=True)
+class Container:
     """Represents the container."""
 
     recognized: bool = False
     supported: bool = False
-    properties: ContainerProperties = ContainerProperties()
+    properties: ContainerProperties = field(default_factory=ContainerProperties)
     type: str | None = None
 
 
-class TrackProperties(Base, frozen=True, kw_only=True):
+@dataclass(frozen=True, kw_only=True, slots=True)
+class TrackProperties:
     """Represents the properties of a track."""
 
     alpha_mode: int | None = None
@@ -233,16 +161,18 @@ class TrackType(StrEnum):
         return self is TrackType.SUBTITLES
 
 
-class Track(Base, frozen=True, kw_only=True):
+@dataclass(frozen=True, kw_only=True, slots=True)
+class Track:
     """Represents a track in a matroska file."""
 
     codec: str
     id: int
     type: TrackType
-    properties: TrackProperties = TrackProperties()
+    properties: TrackProperties = field(default_factory=TrackProperties)
 
 
-class MKVInfo(Base, frozen=True, kw_only=True):
+@dataclass(frozen=True, kw_only=True, slots=True)
+class MKVInfo:
     """
     Represents information about a matroska file as per the
     [`mkvmerge-identification-output-schema-v20.json`][0].
@@ -256,10 +186,29 @@ class MKVInfo(Base, frozen=True, kw_only=True):
     """
 
     file_name: str
-    container: Container = Container()
+    container: Container = field(default_factory=Container)
     attachments: tuple[Attachment, ...] = ()
     tracks: tuple[Track, ...] = ()
     identification_format_version: int | None = None
+
+    @classmethod
+    def from_json(cls, data: str | bytes, /) -> Self:
+        """
+        Create an instance of this class from JSON data.
+
+        Parameters
+        ----------
+        data : str | bytes
+            JSON data representing the instance of this class.
+
+        Returns
+        -------
+        Self
+            An instance of this class.
+
+        """
+        validator = TypeAdapter(cls)
+        return validator.validate_json(data)
 
     @classmethod
     def from_file(

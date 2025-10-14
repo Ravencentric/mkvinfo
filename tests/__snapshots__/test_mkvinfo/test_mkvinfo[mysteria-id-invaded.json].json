@@ -74,8 +74,8 @@
   "container": {
     "properties": {
       "container_type": 17,
-      "date_local": "2021-03-06T08:29:57+05:30",
-      "date_utc": "2021-03-06T02:59:57Z",
+      "date_local": "2021-03-06T08:29:57.000000+0530",
+      "date_utc": "2021-03-06T02:59:57.000000+0000",
       "duration": 1504250000000,
       "is_providing_timestamps": true,
       "muxing_application": "libebml v1.4.2 + libmatroska v1.6.3",
