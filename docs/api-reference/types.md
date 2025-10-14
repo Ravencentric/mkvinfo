@@ -11,4 +11,3 @@
 ::: mkvinfo.Track
 ::: mkvinfo.TrackProperties
 ::: mkvinfo.TrackType
-::: mkvinfo._types.Base
